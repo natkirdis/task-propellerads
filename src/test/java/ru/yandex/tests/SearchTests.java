@@ -3,9 +3,6 @@ package ru.yandex.tests;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
-import static org.hamcrest.MatcherAssert.assertThat;
-import static org.junit.jupiter.api.Assertions.assertTrue;
-
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.ValueSource;
 import ru.yandex.app.Application;
@@ -29,5 +26,4 @@ public class SearchTests {
   public void testUrlsExistOnTheSearchPage(String url) {
     app.results().haveUrl(url);
   }
-
 }
