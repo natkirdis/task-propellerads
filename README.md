@@ -17,7 +17,6 @@ To run test with Maven in different browsers type commands from command line:
 ```
 mvn clean test -P chrome
 mvn clean test -P firefox
-mvn clean test -P ie
 mvn clean test -P edge
 ```
 
