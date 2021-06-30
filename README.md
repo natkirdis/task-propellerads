@@ -1,4 +1,5 @@
-Yandex Search Tests for Propellerads (JUnit + Selenide + Allure)
+Yandex Search Tests for Propellerads
+(JUnit + Selenide + Allure)
 ================================
 This is a test project to check yandex.ru search results.
 
@@ -25,3 +26,5 @@ To get allure report type command from command line:
 ```
 mvn allure:serve
 ```
+
+In local Jenkins added post build step with Allure report.
