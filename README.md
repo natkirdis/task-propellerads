@@ -23,5 +23,5 @@ mvn clean test -P edge
 To get allure report type command in command line: 
 
 ```
-allure serve target/allure-results/
+mvn allure:serve
 ```

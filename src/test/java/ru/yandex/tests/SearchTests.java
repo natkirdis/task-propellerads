@@ -1,6 +1,5 @@
 package ru.yandex.tests;
 
-import io.qameta.allure.Description;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
