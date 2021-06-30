@@ -11,11 +11,17 @@ This is a test project to check yandex.ru search results.
 
 ### Description
 
-To run test with Maven in different browsers type from command line:
+To run test with Maven in different browsers type commands in command line:
 
 ```
 mvn clean test -P chrome
 mvn clean test -P firefox
 mvn clean test -P ie
 mvn clean test -P edge
+```
+
+To get allure report type command in command line: 
+
+```
+allure serve target/allure-results/
 ```
